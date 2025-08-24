@@ -1,0 +1,10 @@
+2025-08-24 15:00:54,962 [main] com.nulp.backend.services.LoggerService c.n.g.v.Main - Unknown Error: null
+java.io.IOException: null
+	at com.nulp.gui.views.Main.main(Main.java:50) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:464) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:364) [javafx.graphics.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at java.base/sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:1135) [?:?]

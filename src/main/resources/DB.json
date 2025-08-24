@@ -1,0 +1,267 @@
+[
+  { "category": "Candies",
+    "sweets": [
+      {
+        "name" : "Choco Delight",
+        "sweetType" : "Candy",
+        "candyType": "Milk Chocolate",
+        "weight" : 50.0,
+        "calories" : 200.0,
+        "fat" : 10.0,
+        "carbohydrates" : 30.0,
+        "sugars" : 20.0,
+        "proteins" : 2.0
+      },
+      {
+        "name" : "Fruit Burst",
+        "sweetType" : "Candy",
+        "candyType": "Fruit Flavored",
+        "weight" : 40.0,
+        "calories" : 150.0,
+        "fat" : 5.0,
+        "carbohydrates" : 25.0,
+        "sugars" : 15.0,
+        "proteins" : 1.5
+      },
+      {
+        "name" : "Dark Surprise",
+        "sweetType" : "Candy",
+        "candyType": "Dark Chocolate",
+        "weight" : 60.0,
+        "calories" : 250.0,
+        "fat" : 15.0,
+        "carbohydrates" : 35.0,
+        "sugars" : 25.0,
+        "proteins" : 3.0
+      },
+      {
+        "name" : "Mint Choco Truffle",
+        "sweetType" : "Candy",
+        "candyType" : "Dark Chocolate",
+        "weight" : 55.0,
+        "calories" : 220.0,
+        "fat" : 12.0,
+        "carbohydrates" : 32.0,
+        "sugars" : 22.0,
+        "proteins" : 2.5
+      },
+      {
+        "name" : "Caramel Joy",
+        "sweetType" : "Candy",
+        "candyType" : "Caramel",
+        "weight" : 45.0,
+        "calories" : 180.0,
+        "fat" : 8.0,
+        "carbohydrates" : 28.0,
+        "sugars" : 18.0,
+        "proteins" : 2.0
+      },
+      {
+        "name" : "Peanut Crunch",
+        "sweetType" : "Candy",
+        "candyType" : "Peanut Butter",
+        "weight" : 65.0,
+        "calories" : 260.0,
+        "fat" : 15.0,
+        "carbohydrates" : 38.0,
+        "sugars" : 28.0,
+        "proteins" : 3.0
+      }
+    ]
+  },
+  {
+    "category": "Pastries",
+    "sweets": [
+      {
+        "name": "Crispy Delight",
+        "sweetType": "Pastry",
+        "crustType": "Flaky",
+        "filling": "Fruit Filling",
+        "weight": 25.0,
+        "calories": 150.0,
+        "fat": 7.0,
+        "carbohydrates": 18.0,
+        "sugars": 10.0,
+        "proteins": 2.0
+      },
+      {
+        "name": "Creamy Dream",
+        "sweetType": "Pastry",
+        "crustType": "Buttery",
+        "filling": "Cream Filling",
+        "weight": 30.0,
+        "calories": 200.0,
+        "fat": 12.0,
+        "carbohydrates": 22.0,
+        "sugars": 18.0,
+        "proteins": 2.5
+      },
+      {
+        "name" : "Strawberry Bliss",
+        "sweetType" : "Pastry",
+        "crustType" : "Flaky",
+        "filling" : "Strawberry Filling",
+        "weight" : 28.0,
+        "calories" : 120.0,
+        "fat" : 5.0,
+        "carbohydrates" : 15.0,
+        "sugars" : 10.0,
+        "proteins" : 1.0
+      },
+      {
+        "name" : "Nutty Crunch",
+        "sweetType" : "Pastry",
+        "crustType" : "Crunchy",
+        "filling" : "Nut Filling",
+        "weight" : 32.0,
+        "calories" : 140.0,
+        "fat" : 7.0,
+        "carbohydrates" : 18.0,
+        "sugars" : 12.0,
+        "proteins" : 2.0
+      }
+    ]
+  },
+  {
+    "category": "Cookies",
+    "sweets": [
+      {
+        "name": "Vanilla Delight",
+        "sweetType": "Cookie",
+        "doughType": "Soft",
+        "filling": "Vanilla Filling",
+        "weight": 30.0,
+        "calories": 180.0,
+        "fat": 8.0,
+        "carbohydrates": 20.0,
+        "sugars": 12.0,
+        "proteins": 2.0
+      },
+      {
+        "name": "Chocolate Chip",
+        "sweetType": "Cookie",
+        "doughType": "Crunchy",
+        "filling": "Chocolate Chips Filling",
+        "weight": 35.0,
+        "calories": 220.0,
+        "fat": 10.0,
+        "carbohydrates": 25.0,
+        "sugars": 15.0,
+        "proteins": 3.0
+      },
+      {
+        "name": "Almond Delight",
+        "sweetType": "Cookie",
+        "doughType": "Soft",
+        "filling": "Almond Filling",
+        "weight": 40.0,
+        "calories": 200.0,
+        "fat": 10.0,
+        "carbohydrates": 20.0,
+        "sugars": 15.0,
+        "proteins": 2.5
+      },
+      {
+        "name": "Oatmeal Raisin",
+        "sweetType": "Cookie",
+        "doughType": "Chewy",
+        "filling": "Raisin Filling",
+        "calories": 180.0,
+        "fat": 8.0,
+        "carbohydrates": 22.0,
+        "sugars": 12.0,
+        "proteins": 3.0
+      }
+    ]
+  },
+  {
+    "category": "Cakes",
+    "sweets": [
+      {
+        "name": "Napoleon",
+        "sweetType": "Cake",
+        "weight": 80.0,
+        "calories": 372.0,
+        "fat": 22.0,
+        "carbohydrates": 39.0,
+        "sugars": 12.0,
+        "proteins": 6.0,
+        "crustType": "Flaky",
+        "filling": "Cream"
+      },
+      {
+        "name": "Black Forest",
+        "sweetType": "Cake",
+        "weight": 150.0,
+        "calories": 450.0,
+        "fat": 25.0,
+        "carbohydrates": 50.0,
+        "sugars": 30.0,
+        "proteins": 5.0,
+        "crustType": "Sponge",
+        "filling": "Cherry"
+      },
+      {
+        "name": "Cheesecake",
+        "sweetType": "Cake",
+        "weight": 200.0,
+        "calories": 320.0,
+        "fat": 15.0,
+        "carbohydrates": 40.0,
+        "sugars": 20.0,
+        "proteins": 8.0,
+        "crustType": "Graham Cracker",
+        "filling": "Cheese"
+      }
+    ]
+  },
+  {
+    "category": "Chocolates",
+    "sweets": [
+      {
+        "name": "Dark Chocolate Bar",
+        "sweetType": "Chocolate",
+        "chocolateType": "Dark",
+        "weight": 100.0,
+        "calories": 550.0,
+        "fat": 35.0,
+        "carbohydrates": 50.0,
+        "sugars": 40.0,
+        "proteins": 6.0
+      },
+      {
+        "name": "Milk Chocolate Bar",
+        "sweetType": "Chocolate",
+        "chocolateType": "Milk",
+        "weight": 100.0,
+        "calories": 530.0,
+        "fat": 32.0,
+        "carbohydrates": 55.0,
+        "sugars": 45.0,
+        "proteins": 7.0
+      },
+      {
+        "name": "White Chocolate Bar",
+        "sweetType": "Chocolate",
+        "chocolateType": "White",
+        "weight": 100.0,
+        "calories": 540.0,
+        "fat": 34.0,
+        "carbohydrates": 54.0,
+        "sugars": 46.0,
+        "proteins": 6.0
+      },
+      {
+        "name": "Hazelnut Chocolate Bar",
+        "sweetType": "Chocolate",
+        "chocolateType": "Milk with Hazelnuts",
+        "weight": 100.0,
+        "calories": 580.0,
+        "fat": 38.0,
+        "carbohydrates": 50.0,
+        "sugars": 40.0,
+        "proteins": 8.0
+      }
+    ]
+  }
+]

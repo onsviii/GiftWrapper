@@ -1,0 +1,149 @@
+[ {
+  "name" : "Choco Delight",
+  "sweetType" : "Candy",
+  "candyType": "Milk Chocolate",
+  "weight" : 17.0,
+  "calories" : 556.0,
+  "fat" : 34.7,
+  "carbohydrates" : 54.7,
+  "sugars" : 47.0,
+  "proteins" : 5.0
+}, {
+  "name" : "Fruit Burst",
+  "sweetType" : "Candy",
+  "candyType": "Fruit Flavored",
+  "weight" : 10.0,
+  "calories" : 322.0,
+  "fat" : 0.2,
+  "carbohydrates" : 79.0,
+  "sugars" : 66.0,
+  "proteins" : 0
+}, {
+  "name" : "Dark Surprise",
+  "sweetType" : "Candy",
+  "candyType": "Dark Chocolate",
+  "weight" : 15.0,
+  "calories" : 444.6,
+  "fat" : 16.0,
+  "carbohydrates" : 69.0,
+  "sugars" : 64.0,
+  "proteins" : 4.0
+}, {
+  "name" : "Crispy Delight",
+  "sweetType" : "Pastry",
+  "crustType" : "Flaky",
+  "filling" : "Fruit Filling",
+  "weight" : 100.0,
+  "calories" : 381.3,
+  "fat" : 20.0,
+  "carbohydrates" : 43.0,
+  "sugars" : 28.0,
+  "proteins" : 5.0
+}, {
+  "name" : "Creamy Dream",
+  "sweetType" : "Pastry",
+  "crustType" : "Buttery",
+  "filling" : "Cream Filling",
+  "weight" : 100.0,
+  "calories" : 397.0,
+  "fat" : 22.0,
+  "carbohydrates" : 45.0,
+  "sugars" : 25.0,
+  "proteins" : 3.5
+}, {
+  "name" : "Vanilla Delight",
+  "sweetType" : "Cookie",
+  "doughType" : "Soft",
+  "filling" : "Vanilla Filling",
+  "weight" : 30.0,
+  "calories" : 430.0,
+  "fat" : 20.0,
+  "carbohydrates" : 57.0,
+  "sugars" : 32.0,
+  "proteins" : 5.0
+}, {
+  "name" : "Chocolate Chip",
+  "sweetType" : "Cookie",
+  "doughType" : "Crunchy",
+  "filling" : "Chocolate Chips Filling",
+  "weight" : 50.0,
+  "calories" : 420.0,
+  "fat" : 23.0,
+  "carbohydrates" : 48.0,
+  "sugars" : 15.0,
+  "proteins" : 7.0
+}, {
+  "name" : "Mint Choco Truffle",
+  "sweetType" : "Candy",
+  "candyType" : "Dark Chocolate",
+  "weight" : 15.0,
+  "calories" : 588.0,
+  "fat" : 42.0,
+  "carbohydrates" : 46.0,
+  "sugars" : 44.0,
+  "proteins" : 4.0
+}, {
+  "name" : "Caramel Joy",
+  "sweetType" : "Candy",
+  "candyType" : "Caramel",
+  "weight" : 13.0,
+  "calories" : 514.0,
+  "fat" : 30.0,
+  "carbohydrates" : 52.0,
+  "sugars" : 36.0,
+  "proteins" : 8.0
+}, {
+  "name" : "Peanut Crunch",
+  "sweetType" : "Candy",
+  "candyType" : "Peanut Butter",
+  "weight" : 39.0,
+  "calories" : 482.0,
+  "fat" : 24.0,
+  "carbohydrates" : 60.0,
+  "sugars" : 39.0,
+  "proteins" : 8.0
+}, {
+  "name" : "Almond Delight",
+  "sweetType" : "Cookie",
+  "doughType" : "Soft",
+  "filling" : "Almond Filling",
+  "weight" : 10.0,
+  "calories" : 400.0,
+  "fat" : 9.0,
+  "carbohydrates" : 71.0,
+  "sugars" : 19.0,
+  "proteins" : 9.0
+}, {
+  "name" : "Oatmeal Raisin",
+  "sweetType" : "Cookie",
+  "doughType" : "Chewy",
+  "filling" : "Raisin Filling",
+  "weight" : 6.0,
+  "calories" : 437.0,
+  "fat" : 13.0,
+  "carbohydrates" : 71.0,
+  "sugars" : 30.0,
+  "proteins" : 8.0
+}, {
+  "name" : "Strawberry Bliss",
+  "sweetType" : "Pastry",
+  "crustType" : "Flaky",
+  "filling" : "Strawberry Filling",
+  "weight" : 29.0,
+  "calories" : 477.0,
+  "fat" : 33.0,
+  "carbohydrates" : 40.0,
+  "sugars" : 28.0,
+  "proteins" : 3.0
+}, {
+  "name" : "Nutty Crunch",
+  "sweetType" : "Pastry",
+  "crustType" : "Crunchy",
+  "filling" : "Nut Filling",
+  "weight" : 29.0,
+  "calories" : 481.0,
+  "fat" : 34.0,
+  "carbohydrates" : 40.0,
+  "sugars" : 29.0,
+  "proteins" : 5.0
+} ]

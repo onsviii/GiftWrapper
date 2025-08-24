@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="root" fitToWidth="true" hbarPolicy="NEVER" prefHeight="633.6" prefWidth="844.8" style="-fx-background-color: #e6e6fa;" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nulp.gui.controllers.GiftController">
+   <content>
+      <VBox alignment="CENTER" minHeight="633.6" minWidth="844.8" style="-fx-background-color: #e6e6fa;">
+         <children>
+            <HBox alignment="CENTER_LEFT" maxHeight="50.0" maxWidth="782.0" stylesheets="@../../../styles/style.css">
+               <children>
+                  <TextField fx:id="searchField" alignment="CENTER" cache="true" prefHeight="40.0" prefWidth="550.0" promptText="Search">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Montserrat Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="searchButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleSweetSearchButton" prefHeight="33.0" prefWidth="33.0" styleClass="search-button" stylesheets="@../../../styles/style.css">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Searches for sweets according to the entered request">
+                           <font>
+                              <Font name="Montserrat Regular" size="12.0" />
+                           </font>
+                        </Tooltip>
+                     </tooltip>
+                  </Button>
+                  <Group>
+                     <children>
+                        <Button fx:id="sortButton" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" styleClass="sort-button">
+                           <tooltip>
+                              <Tooltip text="Allows you to sort sweets by the selected parameter">
+                                 <font>
+                                    <Font name="Montserrat Regular" size="12.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip></Button>
+                        <ChoiceBox fx:id="sortChoice" layoutX="-40.0" layoutY="13.0" prefWidth="100.0" styleClass="sort-choice" visible="false" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </Group>
+                  <Button fx:id="settingsButton" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#openSettingsMenu" styleClass="settings-button">
+                     <HBox.margin>
+                        <Insets left="75.0" />
+                     </HBox.margin>
+                     <contextMenu>
+                        <ContextMenu fx:id="settingsMenu">
+                          <items>
+                              <MenuItem fx:id="loadGift" mnemonicParsing="false" text="Load Gift From File" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem fx:id="saveGift" mnemonicParsing="false" text="Save Gift To File" />
+                           </items>
+                        </ContextMenu>
+                     </contextMenu>
+                     <tooltip>
+                        <Tooltip text="Opens additional functions of the gift" />
+                     </tooltip>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" maxHeight="50.0" minHeight="50.0" spacing="20.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="backButton" disable="true" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#handleBackButton" styleClass="back-button" visible="false">
+                     <tooltip>
+                        <Tooltip text="Cancels the search request">
+                           <font>
+                              <Font name="Montserrat Regular" size="12.0" />
+                           </font>
+                        </Tooltip>
+                     </tooltip></Button>
+                  <Label fx:id="searchQueryLabel" disable="true" visible="false">
+                     <font>
+                        <Font name="Montserrat Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <ScrollPane minHeight="411.8" minWidth="782.0" vbarPolicy="NEVER">
+               <content>
+                  <VBox fx:id="sweetsContainer" minHeight="411.8" minWidth="782.0" style="-fx-background-color: #e6e6fa;">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </content>
+</ScrollPane>
